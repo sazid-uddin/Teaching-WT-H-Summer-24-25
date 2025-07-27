@@ -1,0 +1,26 @@
+<html>
+  <body onload="alertonload()";>
+    <h1 onmouseout="document.getElementById('demo').innerHTML = 'Clicked'";>Heading 1</h1>
+    <p>My First Paragraph</p>
+    <div id="demo"></div>
+    <button onclick="document.getElementById('demo').innerHTML = 'Clicked'";>
+      Click Me
+    </button>
+    <script>
+      var p1 = document.getElementById("demo");
+      p1.innerHTML = "Hello world";
+    </script>
+    <script>
+      //document.write("test");
+    </script>
+    <script>
+      var x = 3;
+      var y = 3;
+      var result = x ** y;
+      
+      function alertonload() {
+         alert("onload");
+      }
+    </script>    
+  </body>
+</html>
